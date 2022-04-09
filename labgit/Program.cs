@@ -13,6 +13,11 @@ namespace labgit
             {
                 list.Add(i);
             }
+
+            foreach (var el in list)
+            {
+                Console.WriteLine(el);
+            }
         }
     }
 }
