@@ -11,6 +11,7 @@ namespace labgit
 
             for(var i = 0; i < 10; i++)
             {
+                list.Add(i+1);
                 list.Add(i);
             }
 
