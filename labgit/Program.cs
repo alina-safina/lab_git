@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 namespace labgit
@@ -12,6 +12,12 @@ namespace labgit
             for(var i = 0; i < 10; i++)
             {
                 list.Add(i);
+                list.Add(i+1);
+            }
+
+            foreach (var el in list)
+            {
+                Console.WriteLine(el);
             }
         }
     }
