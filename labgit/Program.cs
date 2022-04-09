@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace labgit
 {
@@ -6,10 +7,12 @@ namespace labgit
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Тест");
-            Console.WriteLine("Ветвимся");
-            Console.WriteLine("Изменим строкуц12323");
-            Console.WriteLine("Изменим строкуц12");
+            var list = new List<int>();
+
+            for(var i = 0; i < 10; i++)
+            {
+                list.Add(i);
+            }
         }
     }
 }
