@@ -8,9 +8,8 @@ namespace labgit
         {
             Console.WriteLine("Тест");
             Console.WriteLine("Ветвимся");
-            Console.WriteLine("Изменим строку");
-            Console.WriteLine("Новый коммит для второстепенной ветки2");
-            Console.WriteLine("Новый коммит для второстепенной ветки2");
+            Console.WriteLine("Изменим строкуц12323");
+            Console.WriteLine("Изменим строкуц12");
         }
     }
 }
