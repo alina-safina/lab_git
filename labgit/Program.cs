@@ -9,6 +9,7 @@ namespace labgit
             Console.WriteLine("Тест");
             Console.WriteLine("Ветвимся");
             Console.WriteLine("Новый коммит для второстепенной ветки");
+            Console.WriteLine("Новый коммит для второстепенной ветки2");
         }
     }
 }
