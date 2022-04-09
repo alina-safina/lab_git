@@ -6,7 +6,7 @@ namespace labgit
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Тест");
         }
     }
 }
